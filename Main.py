@@ -4,4 +4,8 @@
 #Vous devez afficher dans la console le nombre de mot exact.
 
 chaine = str(input("Entrer une phrase et je vais compter le nombre de mot: "))
-print("Il y a", len(chaine.split(" ")), "mot dans votre phrase")
+
+def word_count():
+  print("Il y a", len(chaine.split(" ")), "mot dans votre phrase")
+  
+word_count()
